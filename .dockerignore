@@ -1,0 +1,7 @@
+.git
+.gitignore
+ngs-data/
+*.fastq.gz
+*.bam
+*.vcf
+.DS_Store
