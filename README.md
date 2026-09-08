@@ -46,7 +46,7 @@ trimmed output.
 
 ## Project structure
 
-\`\`\`
+```
 ngs-docker/
 ├── Dockerfile
 ├── README.md
@@ -54,7 +54,7 @@ ngs-docker/
 ├── .dockerignore
 └── examples/
     └── run_fastqc_trimmomatic.sh
-\`\`\`
+```
 
 ## License
 
