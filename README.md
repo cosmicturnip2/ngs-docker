@@ -22,18 +22,18 @@ a [Miniforge](https://github.com/conda-forge/miniforge)-based image.
 
 ## Build the image
 
-\`\`\`bash
+```bash
 git clone https://github.com/<your-username>/ngs-docker.git
 cd ngs-docker
 docker build -t ngs-tools .
-\`\`\`
+```
 
 ## Run it
 
-\`\`\`bash
+```bash
 mkdir -p ~/ngs-data
 docker run -it --rm -v ~/ngs-data:/data ngs-tools bash
-\`\`\`
+```
 
 Any files placed in `~/ngs-data` on your host machine are available inside
 the container at `/data`.
